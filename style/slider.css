@@ -4,13 +4,26 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    height: 200px;
+    height: 100%;
     overflow: hidden;
   }
   
   .mySlides {
     display: block;
-  }
+}
+
+.show{
+    display: none;
+}
+
+.fuck{
+    height: 196px;
+    overflow: hidden;
+    >img{
+        width: 100%;
+    }
+    
+}
 
   .connaissance-titre{
     display: flex;
